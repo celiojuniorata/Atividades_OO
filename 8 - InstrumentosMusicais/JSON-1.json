@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Launch Program",
+      "mainClass": "${workspaceFolder}/${input:mainClassPath}"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "mainClassPath",
+      "description": "Path to the main class file (e.g., main.java)"
+    }
+  ]
+}
