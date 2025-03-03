@@ -4,8 +4,7 @@ public abstract class Animal {
 
     public Animal(String nome, int idade) {
         this.nome = nome;
-        this.idade = idade;
-        
+        this.idade = idade;        
     }
 
     public abstract void emitirSom();
