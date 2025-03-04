@@ -4,7 +4,6 @@ import java.util.List;
 public class Biblioteca {
     private List<Livro> livros;
 
-    // Construtor
     public Biblioteca() {
         this.livros = new ArrayList<>();
     }
