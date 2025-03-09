@@ -16,7 +16,9 @@ public class main {
         // list.add(passaro);
 
 
-        Animal[] animais = {new Cachorro("Rex", 3), new Gato("Lua", 12), new Passaro("Pidgey", 1)};
+        Animal[] animais = {new Cachorro("Rex", 3),
+                            new Gato("Lua", 12),
+                            new Passaro("Pidgey", 1)};
 
         // System.out.println();
 

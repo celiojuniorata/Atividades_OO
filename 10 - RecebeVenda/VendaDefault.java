@@ -16,4 +16,8 @@ public class VendaDefault extends Vendas {
     public void extratoVenda() {
         System.out.println("Total da venda: " + totalVenda);
     }
+
+    private static void teste(){
+        Menu.menuSelecionar();
+    };
 }

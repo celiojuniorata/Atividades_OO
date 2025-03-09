@@ -13,14 +13,14 @@ public class Menu {
         }
     }
 
-    static private void menuOpcoes() {
+    private static void menuOpcoes() {
         System.out.println("1 - Incluir valor na venda.");
         System.out.println("2 - Incluir pagamento para a venda.");
         System.out.println("3 - Consultar o valor da venda.");
         System.out.println("0 - Sair do sistema");
     }
 
-    static private int StringToInteger(Scanner entrada) { //Tratando a entrada do valor
+    private static int StringToInteger(Scanner entrada) { //Tratando a entrada do valor
         int result = -1;
         try {
             result = Integer.parseInt(entrada.nextLine());
@@ -30,7 +30,7 @@ public class Menu {
         return result;
     }
 
-    static private void menuSelecionar() {
+    public static void menuSelecionar() {
         Scanner entrada = new Scanner(System.in);
         double valor = 0;
 
@@ -65,7 +65,7 @@ public class Menu {
     }
 
     
-    static private void sairSistema() {
+    private static void sairSistema() {
         System.out.println("Saindo do sistema.");
         System.exit(0);
     }
